@@ -32,12 +32,21 @@ def hash(string, max):
 
     return hash % max
 
+# '''
+# Fill this in.
+
 # If you are overwriting a value with a different key, print a warning.
 # '''
 
 
 def hash_table_insert(hash_table, key, value):
-    pass
+    i = hash(key, hash_table.capacity)
+
+    if hash_table.storage[i] is not None:
+        print("Overwriting a value")
+        return None
+    else:
+        hash_table.storage[i] = value
 
 
 # '''
