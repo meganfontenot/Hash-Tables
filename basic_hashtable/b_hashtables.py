@@ -91,3 +91,17 @@ def Testing():
 
 
 Testing()
+
+
+# Test Terminal returns
+
+# python3 b_hashtables_tests.py
+# Key not found
+# ...gone tomorrow (success!)
+# ..Key not found
+# .Key not found
+# .
+# ----------------------------------------------------------------------
+# Ran 4 tests in 0.001s
+
+# OK
