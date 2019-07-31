@@ -107,7 +107,7 @@ def hash_table_retrieve(hash_table, key):
         print('Key not found')
 
 
-# '''
+# '''``
 # Fill this in
 # '''
 def hash_table_resize(hash_table):
