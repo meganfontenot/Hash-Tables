@@ -11,7 +11,7 @@ class Pair:
 
 # '''
 # Basic hash table
-# Fill this in.  All storage values should be initialized to None
+# Fill this in.
 # '''
 class BasicHashTable:
     def __init__(self, capacity):
@@ -21,7 +21,6 @@ class BasicHashTable:
 
 # '''
 # Fill this in.
-# Research and implement the djb2 hash function
 # '''
 
 
@@ -51,8 +50,6 @@ def hash_table_insert(hash_table, key, value):
 
 # '''
 # Fill this in.
-
-# If you try to remove a value that isn't there, print a warning.
 # '''
 def hash_table_remove(hash_table, key):
     index = hash(key, hash_table.capacity)
