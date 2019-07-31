@@ -69,7 +69,7 @@ def hash_table_remove(hash_table, key):
     prev_pair = None
 
     if current_pair is not None:
-        while current_pair is None and current_pair.key != key:
+        while current_pair is not None and current_pair.key != key:
             prev_pair = current_pair
             current_pair = current_pair.next
 
